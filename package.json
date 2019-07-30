@@ -1,0 +1,34 @@
+{
+  "name": "summon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/bin/summon.js",
+  "scripts": {
+    "start": "node dist/bin/summon.js",
+    "prestart": "npm run build",
+    "build": "node_modules/.bin/gulp"
+  },
+  "keywords": [],
+  "author": "Otávio Primo",
+  "license": "ISC",
+  "bin": {
+    "summon": "./bin/dist/summon.js"
+  },
+  "preferGlobal": true,
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cli-color": "^0.3.29",
+    "@types/node": "^11.11.0",
+    "@types/ora": "^3.2.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^5.0.0",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cli-color": "^1.4.0",
+    "ora": "^3.2.0",
+    "prompts": "^2.0.3"
+  }
+}

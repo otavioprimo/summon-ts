@@ -1,0 +1,4 @@
+interface Args {
+  init?: string;
+  
+}
